@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import CSSModuleRendering from '../components/CSSModulesRendering';
-import StyledComponent from '../components/StyledRendering';
 import TailwindRendering from '../components/TailwindRendering';
 export default function Home() {
   return (
@@ -12,8 +10,6 @@ export default function Home() {
 
       <main>
         <TailwindRendering />
-        <CSSModuleRendering />
-        <StyledComponent />
       </main>      
     </div>
   )
